@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Directorios de dependencias
+node_modules
+
+# Archivos de entorno
+.env
+.env.local
+
+# Caché y temporales
+*.tsbuildinfo
+.cache
+tmp/
+temp/
+
+# Configuración del editor
+.vscode/
+.idea/
+.DS_Store
+
+# Archivos innecesarios de sistemas
+Thumbs.db
+*.swp
+
+uploads/
